@@ -1,0 +1,9 @@
+{
+	"node_name":"server03",
+	"server":true,
+	"bind_addr":"172.22.0.5",
+	"bootstrap_expect":3,
+	"data_dir":"/var/lib/consul",
+	"retry_join":["172.22.0.3","172.22.0.6"],
+	"encrypt":"E3nrS58n7OFR0Up7VIdUGVohved9Kb5l00epcESjhlg="
+}
